@@ -17,14 +17,14 @@ describe("AppController", () => {
   describe("root", () => {
     it("should return \"Hello World!\"", () => {
       expect(appController.getHello()).toBe("Hello World!");
+    });
 
-      it("should return \"Love Love Love!\"", () => {
-        expect(appController.getLove()).toBe("Love Love Love!");
-      });
+    it("should return \"Love Love Love!\"", () => {
+      expect(appController.getLove()).toBe("Love Love Love!");
+    });
 
-      it("should return food list", () => {
-        expect(appController.getFood()).toBe('Cake Coffee Candy!');
-      });
+    it("should return food list", () => {
+      expect(appController.getFood()).toBe("Cake Coffee Candy!");
     });
   });
 
