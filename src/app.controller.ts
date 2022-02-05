@@ -14,4 +14,9 @@ export class AppController {
   getLove(): string {
     return this.appService.getLove();
   }
+
+  @Get('eat')
+  getFood(): string {
+    return this.appService.getFood();
+  }
 }

@@ -9,4 +9,8 @@ export class AppService {
   getLove(): string {
     return 'Love Love Love!';
   }
+
+  getFood(): string {
+    return 'Cake Coffee Candy!';
+  }
 }
